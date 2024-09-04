@@ -1,0 +1,866 @@
+/*
+Theme Name: xbtheme
+Theme URI: https://www.nettsz.com/
+Author: hexioabai
+Author URI: https://www.nettsz.com/
+Description: 专业的联盟营销主题
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 联盟营销
+Text Domain: xbtheme
+*/
+
+/* styles.css 文件内 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* 灰色背景 */
+}
+.front-page-container {
+    width: 100%; /* 占据整个宽度 */
+    margin: 20px; /* 添加外边距 */
+    padding: 20px;
+    box-sizing: border-box; /* 确保外边距不影响宽度 */
+}
+.post-excerpt {
+        color: #606266;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 控制显示的行数 */
+  -webkit-box-orient: vertical; /* 设置垂直排列 */
+  overflow: hidden; /* 隐藏超出的部分 */
+  text-overflow: ellipsis; /* 末尾显示省略号 */
+      margin-bottom: 20px;
+}
+.post-excerpt p{
+       margin: 0px;
+}
+/* 继续阅读按钮 */
+.read-more-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #0073aa;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.front-page-row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: inherit; 
+    margin-left: 0; /* 移除负边距 */
+    margin-right: 0; /* 移除负边距 */
+}
+.widget {
+    background-color: #ffffff; /* 背景颜色 */
+    border: 1px solid #f1eeee; /* 边框 */
+    margin-bottom: 20px; /* 小工具之间的间距 */
+}
+.wp-block-riovizual-tablebuilder td {
+  height: unset;
+}
+/* 添加居中和间距 */
+.lsanniu .rv_tb-element:not(:last-child) {
+  margin-bottom: 5px; /* 设置按钮之间的下边距 */
+}
+
+/* 当只有一个按钮时，将其居中 */
+.lsanniu .rv_tb-element {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 垂直居中 */
+}
+
+/* 只有一个按钮时移除多余的margin */
+.lsanniu .rv_tb-element:last-child {
+  margin-bottom: 0;
+}
+
+
+
+.front-page-col-8, .front-page-col-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#ez-toc-container {
+    display: none!important;
+}
+.pfyuan .verdict-layout-1 .num {
+    
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+    
+}
+.pfyuan .verdict-layout-1 .rich-content {
+    
+    border-bottom-right-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+}
+.wp-block-riovizual-tablebuilder .rv_tb-image img {
+   
+    border-radius: 6px;
+}
+.rv_pac-cons-wrapper {
+   
+        background-color: #ffeeed;
+}
+.rv_pac-pros-wrapper {
+   
+        background-color: #e6f7ee;
+}
+.paihang {
+    display: flex;
+    border-top: 1px solid #f1eeee;
+    border-left: 1px solid #f1eeee;
+    border-right: 1px solid #f1eeee;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.paihang h2{
+        padding: 0!important;
+        margin-block-start: 0;
+    margin-block-end: 0;
+}
+.paihang h3{
+        padding: 0!important;
+        margin-block-start: 0;
+    margin-block-end: 0;
+        font-size: 20px;
+}
+.paihang h4{
+        padding: 0!important;
+        margin-block-start: 0;
+    margin-block-end: 0;
+        font-size: 18px;
+}
+.jgbutton {
+    color: #fff;
+    background-color: #FF5722;
+    border-radius: 4px;
+    box-shadow: none;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.jgbutton:hover {
+    background-color: #f24812;
+}
+.wp-block-media-text {
+    border: 1px solid #f1eeee;
+}
+.wp-block-media-text__media {
+}
+.wp-block-media-text.is-image-fill>.wp-block-media-text__media {
+    min-height: unset !important;
+}
+.wp-block-media-text>.wp-block-media-text__content {
+    direction: ltr;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 30px!important;
+    word-break: break-word;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wp-block-media-text>.wp-block-media-text__content p{
+        margin: 0 0 0px;
+        text-align: center;
+            line-height: 1.8;
+}
+a:hover.wp-block-button__link {
+    background-color: #084ACA !important;
+}
+ .wp-block-buttons{
+    }
+    
+ .wp-block-media-text {
+}
+.cpcp {
+              display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.bgyuan{
+            border: 1px solid #f1eeee;
+    border-radius: 10px;
+    border-collapse: separate!important;
+    overflow: hidden;
+        border-spacing: 0;
+    }
+    .bgbgyuan{
+          
+    border-radius: 10px;
+    
+    }
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 10px 0;
+    background-color: #fff; 
+    color: #fff;
+    border-bottom: 1px solid #eff0f0;
+}
+.site-header[data-background="false"] {
+    background: hsla(0, 0%, 100%, .82);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid #eff0f0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    background-color: transparent; /* 移除背景颜色 */
+}
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+            padding: 0 15px;
+    background: #F2F2F2;
+    
+}
+.wp-block-riovizual-tablebuilder .has-fixed-layout .rv_el-nowrap.wp-element-button {
+    white-space: nowrap !important; /* 更深的选择器 */
+}
+table.has-fixed-layout thead th .rv_tb-text {
+    white-space: nowrap; /* 阻止文本换行 */
+}
+.wp-block-riovizual-tablebuilder .rv_tb-shortcode{
+    justify-content: center;
+}
+.ez-toc-widget-container ul.ez-toc-list {
+    padding: 0px!important;
+}
+.ez-toc-widget-container ul li a{
+color: black;
+text-decoration: none;
+    padding: 5px;
+    width: 100%;
+        box-sizing: border-box;
+        font-size: 14px;
+}
+    .ez-toc-list .ez-toc-link {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: transparent; /* 初始背景颜色 */
+        color: #000; /* 文字颜色 */
+        text-decoration: none; /* 去掉下划线 */
+        transition: background-color 0.3s ease; /* 平滑过渡效果 */
+    }
+
+    .ez-toc-list .ez-toc-link:hover {
+        background-color: #f0f0f0; /* 鼠标悬浮时的背景颜色 */
+    }
+.ez-toc-widget-container ul.ez-toc-list li.active {
+    background-color: #f7f7f7!important;
+}
+ .sidebar-box {
+background: #FFF;
+    padding: 15px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 菜单项 */
+.menu-container .menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-container .menu li {
+    display: inline-block;
+    border: 0;
+    margin-right: 12px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: transparent; /* 保持透明背景 */
+}
+
+.menu-container .menu li a {
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 17px;
+    height: auto;
+    color: #000; /* 文字颜色 */
+    text-decoration: none; /* 移除链接下划线 */
+    font-weight: bold;
+}
+.menu-container .menu li a:hover {
+    
+    color: #2670ff; 
+}
+/* 菜单按钮（隐藏在桌面视图中） */
+.menu-toggle {
+    display: none;
+}
+
+/* 搜索框样式 */
+.search-form form {
+    display: flex;
+    align-items: center; /* 垂直居中对齐 */
+    margin-right: 15px;
+}
+
+
+
+.search-form input[type="search"] {
+    width: 200px; /* 设置输入框宽度 */
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #f2f2f2; /* 搜索框背景颜色 */
+    color: #000; /* 文字颜色 */
+    height: 30px; /* 设置高度 */
+    line-height: 30px; /* 设置行高以垂直居中文本 */
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.search-form input[type="submit"] {
+    background-color: #2670ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0px 15px;
+    cursor: pointer;
+    height: 30px; /* 设置高度 */
+    line-height: 30px;
+    font-weight: bold;
+}
+.search-form input[type="submit"]:hover {
+    background-color: #084ACA;
+}
+.wrap{
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    -webkit-transition: .5s;
+    transition: .3s;
+    
+}
+.row {
+    width: 100%; /* 确保.row占据.box的全部宽度 */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0; /* 移除负边距 */
+    margin-right: 0; /* 移除负边距 */
+        max-width: 1200px;
+    margin: 20px auto;
+    min-height: 100vh;
+}
+
+.col-md-8, .col-md-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.col-md-8 {
+    flex: 0 0 66.66666%;
+    max-width: 66.66666%;
+        background-color: #fff;
+   
+}
+
+.col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.site-main article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f7f8fc;
+}
+
+#sidebar ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.custom-html-widget img{
+    width: 100%;
+        vertical-align: text-top;
+}
+.ez-toc-widget-container ul li a {
+    padding-left: 15px!important;
+}
+.xuhao {
+       font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+        color: #2670ff;
+}
+.entry-title {
+    color: #333;
+    text-decoration: none;
+}
+.entry-title a {
+    color: #333;
+    text-decoration: none;
+}
+.content-box .entry-header {
+        border-bottom: 1px solid #f7f8fc;
+        display: flex;
+    justify-content: center;
+}
+.site-main .entry-header h1{
+        border-bottom: 1px solid #f7f8fc;
+    padding-bottom: 20px;
+        display: flex;
+    justify-content: center;
+}
+.entry-title a:hover {
+    color: #2670ff;
+}
+
+.entry-content {
+    margin-top: 10px;
+    margin-left: auto; /* 居中显示 */
+    margin-right: auto; /* 居中显示 */
+}
+.entry-content ol li{
+        padding: 10px 10px 10px 0px;
+        color: #606266;
+}
+.entry-content ul li{
+        padding: 10px 10px 10px 0px;
+    border-bottom: 1px #eee dashed;
+    color: #606266;
+}
+.entry-content > ol li::marker, .entry-content > ul li::marker {
+    color: #2196F3;
+}
+.entry-footer {
+    color: #666;
+    font-size: 0.8em;
+}
+.entry-content p {
+        color: #606266;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+}
+.entry-content h2 {
+        padding: 10px 10px 10px 0px;
+      
+    color: #333;
+}
+.entry-content h2, h3, h4, h5, h6 {
+     color: #606266;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+}
+
+.nav-links a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.copyright {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.copyright a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    width: calc(16.66% - 10px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+.company-review-card {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-header {
+      background-color: #0471fb;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+}
+.card-header h2{
+   color: #fff;
+   margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 20px;
+}
+
+.rating-row {
+  display: flex;
+  justify-content: space-between;
+}
+.rating-fen {
+      display: flex;
+    align-items: center;
+        border: 1px solid #f1eeee;
+            border-radius: 20px;
+                padding: 0px 8px 0px 5px;
+    margin: 5px 0px 0px 0px;
+        background-color: white;
+}
+.ratingfens {
+      display: flex;
+    align-items: center;
+       
+}
+.fenbt {
+       font-weight: bold;
+    padding: 5px;
+}
+.cpbt {
+       font-weight: 500;
+    font-size: 25px;
+}
+.lsfen {
+   display: inline-block;
+    margin-right: 5px; 
+}
+.lsfen img {
+    width: 20px; /* 设置图片宽度 */
+    height: auto; /* 保持图片比例 */
+}
+.rating-item {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border-right: 1px solid #f1eeee;
+  border-left: 1px solid #f1eeee;
+  background-color: #fafcff;
+  border-bottom: 1px solid #f1eeee;
+}
+
+.rating-item:first-child {
+ 
+}
+
+.rating-item:last-child {
+  border-left: none;
+}
+.item-title {
+  font-weight: bold;
+      padding: 10px;
+      width: 50px;
+}
+.item-score {
+      padding: 2px;
+}
+
+  
+/* 响应式样式 */
+@media (max-width: 767px) {
+    .container {
+        padding: 0 15px; /* 减少padding以适应更小的屏幕 */
+    }
+        .contain {
+        padding: 0px; /* 减少padding以适应更小的屏幕 */
+    }
+
+
+    .row {
+        margin: 0px; /* 减少边距以适应更小的屏幕 */
+    }
+.col-md-4 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    padding-top: 25px;
+    box-sizing: border-box;
+   
+    }
+    .col-md-8, .col-md-4 {
+  
+       flex-basis: 100%;
+        max-width: 100%;
+    }
+.navbar {
+        flex-direction: column;
+    }
+
+   .menu-toggle {
+    display: block; /* 默认显示 */
+    position: relative;
+    background-color: transparent; 
+    width: 30px; /* 设置图标总宽度 */
+    height: 24px; /* 设置图标总高度 */
+    cursor: pointer;
+    padding-block: 0px;
+    padding-inline: 6px;
+    border-width: 0px;
+}
+
+.menu-toggle .menu-icon {
+    display: block;
+    width: 100%; /* 设置为100%以与菜单图标宽度相同 */
+    height: 2px; /* 设置横线的高度 */
+    background-color: #999; /* 设置横线的颜色 */
+    position: relative;
+}
+
+.menu-toggle .menu-icon::before,
+.menu-toggle .menu-icon::after {
+    content: '';
+    position: absolute;
+    width: 100%; /* 设置伪元素宽度为100%以与主横线相同 */
+    height: 100%;
+    background-color: #999;
+    left: 0;
+}
+
+.menu-toggle .menu-icon::before {
+    top: -8px; /* 上方横线的位置 */
+}
+
+.menu-toggle .menu-icon::after {
+    top: 8px; /* 下方横线的位置 */
+}
+    /* 菜单样式 */
+        .menu-container .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* 居中对齐菜单项 */
+        padding: 1rem; /* 内边距 */
+    }
+    .menu-container .menu li {
+        display: block;
+        border: 0;
+        margin-bottom: 12px;
+        border-radius: 3px;
+        overflow: hidden;
+        margin-right: 0px;
+        background-color: #2670ff;
+        width: 100%; /* 宽度设置为100%以填满容器 */
+        text-align: center; /* 文本居中对齐 */
+    }
+
+    .menu-container .menu li a {
+        display: inline-block;
+        padding: 5px 12px;
+        font-size: 17px;
+        height: auto;
+        color: #fff; /* 文字颜色 */
+        text-decoration: none; /* 移除链接下划线 */
+        font-weight: bold;
+    }
+
+    /* 确保Off-canvas菜单可以滚动 */
+    .menu-container {
+        overflow-y: auto; /* 允许垂直滚动 */
+        max-height: 100vh; /* 设置最大高度为视口高度 */
+        padding-bottom: 100px; /* 为底部留出空间 */
+        position: absolute;
+        top: 100%; /* 从顶部下方开始 */
+        left: 0;
+        width: 50%; /* 占据一半屏幕宽度 */
+        height: 100vh; /* 高度设置为100vh以占据整个屏幕 */
+        background-color: #e8eef3; /* 背景颜色 */
+        z-index: 1; /* 确保菜单在其他元素之上 */
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 添加阴影效果 */
+        display: none; /* 默认隐藏菜单 */
+    }
+
+    /* 显示菜单 */
+    .menu-container.is-visible {
+        display: block; /* 显示菜单 */
+    }
+
+    /* 添加遮罩层 */
+    .overlay {
+        position: absolute;
+        top: 100%; /* 从顶部下方开始 */
+        right: 0; /* 从右侧开始 */
+        width: 50%; /* 占据另一半屏幕宽度 */
+        height: calc(100vh - var(--header-height)); /* 屏幕高度减去头部高度 */
+        background-color: rgba(0,0,0,0.5); /* 半透明黑色背景 */
+        z-index: 0; /* 确保遮罩层在菜单之下 */
+        display: none; /* 默认隐藏遮罩层 */
+    }
+
+    /* 当菜单显示时也显示遮罩层 */
+    .menu-container.is-visible + .overlay {
+        display: block; /* 当菜单显示时也显示遮罩层 */
+    }
+ .search-form form {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
+.search-form input[type="search"] {
+        width: 100px;
+}
+
+.header-inner {
+        flex-direction: row-reverse;
+}
+.rating-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1eeee;
+}
+
+.wp-block-media-text>.wp-block-media-text__content {
+    direction: ltr;
+    grid-column: 2;
+    grid-row: 1;
+        padding: 20px !important;
+    word-break: break-word;
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+.wp-block-media-text>.wp-block-media-text__content p {
+    margin: 0 0 0px;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+.cpcp {
+              display: flex;
+        flex-direction: column;
+        align-items: center;
+                margin-bottom: 15px;
+}
+.ratingfens {
+      display: flex;
+    align-items: center;
+      
+}
+
+.rating-fen {
+    margin: 0px;
+}
+.widget_custom_html {
+    display: none;
+}
+.lsanniu {
+      display: flex;
+         align-items: center;
+       flex-direction: row; /* 改为水平排列 */
+            justify-content: center; 
+}
+
+
+.lsanniu .rv_tb-element:not(.rv_tb-text-wrap):not(:last-child) {
+    margin-right: 1rem; /* 按钮之间的间距 */
+  }
+.lsanniu .rv_tb-element:not(:last-child) {
+    margin-bottom: 0;
+}
+.wp-block-riovizual-tablebuilder td {
+        height: auto!important;
+}
+
+.wp-block-riovizual-tablebuilder .is-stacked-on-mobile tr .rv_tb-cell:not(.sm-last-cell) {
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+    /* 底部 */
+    .footer {
+        flex-direction: column; /* 在小屏幕上垂直堆叠 */
+    }
+    
+        .front-page-container {
+        padding: 10px;
+        margin: 10px; /* 在小屏幕设备上减少外边距 */
+    }
+
+    .front-page-row {
+        flex-direction: column;
+    }
+
+    .front-page-col-8, .front-page-col-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+   .wp-block-media-text.is-image-fill>.wp-block-media-text__media {
+    min-height: 140px !important;
+}
+#ez-toc-container {
+    display: table!important;
+    box-sizing: border-box;
+}
+.col-md-4 .ez-toc{
+        display: none;
+    }
+}
